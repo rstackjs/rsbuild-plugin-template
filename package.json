@@ -30,12 +30,12 @@
     "pre-commit": "npm run lint:write"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.13",
-    "@playwright/test": "^1.58.1",
-    "@rsbuild/core": "^1.7.2",
-    "@rslib/core": "^0.19.4",
-    "@types/node": "^24.10.9",
-    "playwright": "^1.58.1",
+    "@biomejs/biome": "^2.4.5",
+    "@playwright/test": "^1.58.2",
+    "@rsbuild/core": "^1.7.3",
+    "@rslib/core": "^0.19.6",
+    "@types/node": "^24.11.0",
+    "playwright": "^1.58.2",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^5.9.3"
   },
@@ -47,7 +47,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.30.3",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
