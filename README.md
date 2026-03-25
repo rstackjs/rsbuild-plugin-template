@@ -22,7 +22,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginExample } from "rsbuild-plugin-example";
+import { pluginExample } from 'rsbuild-plugin-example';
 
 export default {
   plugins: [pluginExample()],
@@ -41,7 +41,7 @@ Some description.
 
 ```js
 pluginExample({
-  foo: "bar",
+  foo: 'bar',
 });
 ```
 
