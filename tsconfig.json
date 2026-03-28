@@ -6,9 +6,9 @@
     "lib": ["DOM", "ESNext"],
     "declaration": true,
     "isolatedModules": true,
-    "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "bundler"
+    "module": "nodenext",
+    "moduleResolution": "nodenext"
   },
   "include": ["src"]
 }
