@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "npx rsbuild dev",
+    "dev": "npx rsbuild",
     "build": "npx rsbuild build"
   }
 }
