@@ -12,13 +12,13 @@ importers:
         specifier: ^1.58.2
         version: 1.58.2
       '@rsbuild/core':
-        specifier: ^1.7.3
+        specifier: ^1.7.4
         version: 1.7.4
       '@rslib/core':
-        specifier: ^0.20.0
+        specifier: ^0.20.1
         version: 0.20.1(core-js@3.47.0)(typescript@6.0.2)
       '@rslint/core':
-        specifier: ^0.3.2
+        specifier: ^0.3.3
         version: 0.3.3(jiti@2.6.1)
       '@types/node':
         specifier: ^24.12.0
