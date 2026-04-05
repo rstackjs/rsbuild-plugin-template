@@ -27,12 +27,12 @@
     "pre-commit": "npm run lint:write"
   },
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "@rsbuild/core": "^1.7.4",
-    "@rslib/core": "^0.20.1",
-    "@rslint/core": "^0.3.3",
-    "@types/node": "^24.12.0",
-    "playwright": "^1.58.2",
+    "@playwright/test": "^1.59.1",
+    "@rsbuild/core": "^1.7.5",
+    "@rslib/core": "^0.20.3",
+    "@rslint/core": "^0.3.4",
+    "@types/node": "^24.12.2",
+    "playwright": "^1.59.1",
     "prettier": "^3.8.1",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.2"
