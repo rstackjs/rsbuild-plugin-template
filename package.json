@@ -24,13 +24,7 @@
     "bump": "npx bumpp"
   },
   "simple-git-hooks": {
-    "pre-commit": "./node_modules/.bin/nano-staged"
-  },
-  "nano-staged": {
-    "*": [
-      "rslint",
-      "prettier -w"
-    ]
+    "pre-commit": "pnpm run lint:write"
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",
