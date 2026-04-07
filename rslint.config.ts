@@ -1,6 +1,3 @@
 import { defineConfig, ts } from '@rslint/core';
 
-export default defineConfig([
-  { ignores: ['**/dist/**'] },
-  ts.configs.recommended,
-]);
+export default defineConfig([ts.configs.recommended]);
