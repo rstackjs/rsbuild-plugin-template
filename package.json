@@ -29,11 +29,11 @@
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "@rsbuild/core": "^1.7.5",
-    "@rslib/core": "^0.20.3",
-    "@rslint/core": "^0.3.4",
+    "@rslib/core": "^0.21.0",
+    "@rslint/core": "^0.4.1",
     "@types/node": "^24.12.2",
     "playwright": "^1.59.1",
-    "prettier": "^3.8.1",
+    "prettier": "^3.8.2",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.2"
   },
