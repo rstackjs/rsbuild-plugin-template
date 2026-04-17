@@ -19,9 +19,9 @@
     "dev": "rslib -w",
     "lint": "rslint && prettier -c .",
     "lint:write": "rslint --fix && prettier -w .",
-    "prepare": "simple-git-hooks && npm run build",
+    "prepare": "simple-git-hooks && pnpm run build",
     "test": "playwright test",
-    "bump": "npx bumpp"
+    "bump": "pnpx bumpp"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm run lint:write"

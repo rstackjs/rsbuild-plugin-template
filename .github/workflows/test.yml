@@ -36,7 +36,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Install Dependencies
-        run: pnpm install && npx playwright install chromium
+        run: pnpm install && pnpm exec playwright install chromium
 
       - name: Run Test
         run: pnpm run test

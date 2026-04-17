@@ -1,9 +1,10 @@
 {
   "name": "playground",
   "private": true,
+  "type": "module",
   "version": "0.0.0",
   "scripts": {
-    "dev": "npx rsbuild",
-    "build": "npx rsbuild build"
+    "dev": "pnpm exec rsbuild",
+    "build": "pnpm exec rsbuild build"
   }
 }
