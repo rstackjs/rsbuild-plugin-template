@@ -24,7 +24,10 @@
     "bump": "pnpx bumpp"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm run lint:write"
+    "pre-commit": [
+      "rslint",
+      "prettier -w"
+    ]
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",
