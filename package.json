@@ -30,12 +30,12 @@
     ]
   },
   "devDependencies": {
-    "@playwright/test": "^1.59.1",
-    "@rsbuild/core": "^2.0.5",
-    "@rslib/core": "^0.21.4",
-    "@rslint/core": "^0.5.2",
-    "@types/node": "^24.12.3",
-    "playwright": "^1.59.1",
+    "@playwright/test": "^1.60.0",
+    "@rsbuild/core": "^2.0.6",
+    "@rslib/core": "^0.21.5",
+    "@rslint/core": "^0.5.3",
+    "@types/node": "^24.12.4",
+    "playwright": "^1.60.0",
     "prettier": "^3.8.3",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.3"
