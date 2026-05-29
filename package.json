@@ -19,7 +19,6 @@
     "dev": "rslib -w",
     "lint": "rslint && prettier -c .",
     "lint:write": "rslint --fix && prettier -w .",
-    "prepare": "rslib",
     "test": "playwright test",
     "bump": "pnpx bumpp"
   },
