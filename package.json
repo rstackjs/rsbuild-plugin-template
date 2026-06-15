@@ -26,7 +26,7 @@
     "@playwright/test": "^1.60.0",
     "@rsbuild/core": "^2.0.7",
     "@rslib/core": "^0.21.5",
-    "@rslint/core": "^0.5.3",
+    "@rslint/core": "^0.6.1",
     "@types/node": "^24.12.4",
     "playwright": "^1.60.0",
     "prettier": "^3.8.3",
