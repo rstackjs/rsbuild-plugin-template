@@ -23,13 +23,13 @@
     "bump": "pnpx bumpp"
   },
   "devDependencies": {
-    "@playwright/test": "^1.60.0",
-    "@rsbuild/core": "^2.0.14",
-    "@rslib/core": "^0.22.1",
-    "@rslint/core": "^0.6.1",
+    "@playwright/test": "^1.61.1",
+    "@rsbuild/core": "^2.1.2",
+    "@rslib/core": "^0.23.1",
+    "@rslint/core": "^0.6.4",
     "@types/node": "^24.13.2",
-    "playwright": "^1.60.0",
-    "prettier": "^3.8.4",
+    "playwright": "^1.61.1",
+    "prettier": "^3.9.4",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
@@ -40,7 +40,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.6.0",
+  "packageManager": "pnpm@11.9.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
