@@ -35,4 +35,4 @@ jobs:
           run_install: true
 
       - name: Run Lint
-        run: pnpm run lint
+        run: node --run lint

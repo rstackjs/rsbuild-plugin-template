@@ -32,7 +32,7 @@ jobs:
           run_install: true
 
       - name: Build Packages
-        run: pnpm build
+        run: node --run build
 
       - name: Publish
         run: pnpm stage publish --no-git-checks
