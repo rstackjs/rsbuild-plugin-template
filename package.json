@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",
-    "@rsbuild/core": "^2.1.2",
-    "@rslib/core": "^0.23.1",
-    "@rslint/core": "^0.6.4",
-    "@types/node": "^24.13.2",
+    "@rsbuild/core": "^2.1.5",
+    "@rslib/core": "^0.23.2",
+    "@rslint/core": "^0.6.5",
+    "@types/node": "^24.13.3",
     "playwright": "^1.61.1",
     "prettier": "^3.9.4",
     "typescript": "^7.0.2"
@@ -40,7 +40,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.10.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
