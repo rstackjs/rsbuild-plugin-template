@@ -13,7 +13,7 @@ test('should render page as expected', async ({ page }) => {
     rsbuildConfig: {
       plugins: [pluginExample()],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
     },
   });
