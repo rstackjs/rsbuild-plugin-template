@@ -31,7 +31,7 @@
     "@rstest/playwright": "^0.11.1",
     "@types/node": "^24.13.3",
     "playwright": "^1.61.1",
-    "prettier": "^3.9.4",
+    "prettier": "^3.9.5",
     "typescript": "^7.0.2"
   },
   "peerDependencies": {
@@ -42,7 +42,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.10.0",
+  "packageManager": "pnpm@11.13.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
