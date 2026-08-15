@@ -1,15 +1,11 @@
-import { dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { expect, test } from '@rstest/playwright';
 import { createRsbuild } from '@rsbuild/core';
 import { pluginExample } from '../../src';
 import { getRandomPort } from '@rstackjs/test-utils';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
 test('should render page as expected', async ({ page }) => {
   const rsbuild = await createRsbuild({
-    cwd: __dirname,
+    cwd: import.meta.dirname,
     rsbuildConfig: {
       plugins: [pluginExample()],
       server: {
@@ -28,7 +24,7 @@ test('should render page as expected', async ({ page }) => {
 
 test('should build succeed', async ({ page }) => {
   const rsbuild = await createRsbuild({
-    cwd: __dirname,
+    cwd: import.meta.dirname,
     rsbuildConfig: {
       plugins: [pluginExample()],
     },

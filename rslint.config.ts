@@ -1,12 +1,13 @@
 import { defineConfig, js, ts } from '@rslint/core';
+import globals from 'globals';
 
 export default defineConfig([
   js.configs.recommended,
-  ts.configs.recommended,
+  ts.configs.recommendedTypeChecked,
   {
-    files: ['playground/**/*', 'test/**/*'],
-    rules: {
-      'no-undef': 'off',
+    files: ['**/*.{js,jsx,cjs,mjs}'],
+    languageOptions: {
+      globals: globals.browser,
     },
   },
 ]);
