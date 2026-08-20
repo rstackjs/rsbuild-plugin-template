@@ -34,5 +34,5 @@ jobs:
         with:
           run_install: true
 
-      - name: Run Lint
-        run: node --run lint
+      - name: Run Check
+        run: node --run check
