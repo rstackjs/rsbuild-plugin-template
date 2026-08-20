@@ -21,6 +21,7 @@
     "dev": "rs lib -w",
     "format": "rs fmt",
     "lint": "rs lint",
+    "prepare": "rs setup",
     "test": "rs test"
   },
   "devDependencies": {
