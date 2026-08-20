@@ -1,4 +1,4 @@
 {
   "search.useIgnoreFiles": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "rstack.rstack"
 }

@@ -15,24 +15,21 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib",
+    "build": "rs lib",
     "bump": "pnpx bumpp",
-    "dev": "rslib -w",
-    "lint": "rslint && prettier -c .",
-    "lint:write": "rslint --fix && prettier -w .",
-    "test": "rstest"
+    "check": "rs check",
+    "dev": "rs lib -w",
+    "format": "rs fmt",
+    "lint": "rs lint",
+    "test": "rs test"
   },
   "devDependencies": {
     "@rsbuild/core": "^2.1.13",
-    "@rslib/core": "^0.23.2",
-    "@rslint/core": "^0.8.0",
     "@rstackjs/test-utils": "^0.2.0",
-    "@rstest/core": "^0.11.8",
     "@rstest/playwright": "^0.11.8",
     "@types/node": "^24.13.3",
-    "globals": "^17.11.0",
     "playwright": "^1.62.1",
-    "prettier": "^3.9.6",
+    "rstack": "^0.6.2",
     "typescript": "^7.0.2"
   },
   "peerDependencies": {
