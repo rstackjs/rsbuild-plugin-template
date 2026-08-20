@@ -1,4 +1,4 @@
-import { define } from 'rstack';
+import { define } from "rstack";
 
 define.fmt({
   singleQuote: true,
@@ -6,18 +6,15 @@ define.fmt({
 });
 
 define.lib({
-  lib: [{ syntax: 'es2023', dts: true }],
-});
-
-define.test({
-  isolate: false,
+  dts: true,
+  syntax: "es2023",
 });
 
 define.lint(({ globals, js, ts }) => [
   js.configs.recommended,
   ts.configs.recommendedTypeChecked,
   {
-    files: ['**/*.{js,jsx,cjs,mjs}'],
+    files: ["test/**/src/**/*.{js,jsx}"],
     languageOptions: {
       globals: globals.browser,
     },
