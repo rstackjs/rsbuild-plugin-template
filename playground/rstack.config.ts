@@ -1,10 +1,7 @@
 // Configuration guide: https://rstack.rs/config
 import { define } from 'rstack';
+import { pluginExample } from '../src/index.ts';
 
-define.app(async () => {
-  const { pluginExample } = await import('../src/index.ts');
-
-  return {
-    plugins: [pluginExample()],
-  };
+define.app({
+  plugins: [pluginExample()],
 });
