@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "^2.2.6",
-    "@rstackjs/test-utils": "^0.2.0",
+    "@rstackjs/test-utils": "^1.0.0",
     "@rstest/playwright": "^0.11.12",
     "@types/node": "^24.13.4",
     "playwright": "^1.63.0",

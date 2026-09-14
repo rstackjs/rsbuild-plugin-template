@@ -12,8 +12,8 @@ importers:
         specifier: ^2.2.6
         version: 2.2.6
       '@rstackjs/test-utils':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^1.0.0
+        version: 1.0.0
       '@rstest/playwright':
         specifier: ^0.11.12
         version: 0.11.12(@rstest/core@0.11.12)(playwright@1.63.0)
@@ -365,8 +365,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rstackjs/test-utils@0.2.0':
-    resolution: {integrity: sha512-P+LOo1WE3xYeGkHmEthyq2cIpN69k4LhiB/4UBSceD+nW9hDlhWv8MC0LTLWokZXccWl4ntcfOBjQFllkcBlPA==}
+  '@rstackjs/test-utils@1.0.0':
+    resolution: {integrity: sha512-g7oEZzqwke/pRVGAsvEpML+37PDOo9BwR8nKignbtXlKmW9Cb202pRRUSVEsWG//7pnyIi+q4P7b1H/h1ianGA==}
 
   '@rstest/core@0.11.12':
     resolution: {integrity: sha512-dklEYLtL1eip/11K+o3xEchEs2nCGua2u2W8Pycf6PS8TE0PDJH2Bn9y/txuQI4YVHyIQ88PISWtS6fVnxSyXQ==}
@@ -885,7 +885,7 @@ snapshots:
   '@rstackjs/cli-win32-x64-msvc@0.7.4':
     optional: true
 
-  '@rstackjs/test-utils@0.2.0': {}
+  '@rstackjs/test-utils@1.0.0': {}
 
   '@rstest/core@0.11.12':
     dependencies:
