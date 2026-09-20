@@ -27,7 +27,9 @@ define.test(async () => {
     extends: definePlaywrightConfig({
       launchOptions: {
         // Skip installing Playwright browsers
-        channel: 'chrome',
+        ...(process.env.CI_BROWSER_VARIANT === 'baseline'
+          ? {}
+          : { channel: process.env.CI_BROWSER_VARIANT || 'chrome' }),
       },
     }),
   };

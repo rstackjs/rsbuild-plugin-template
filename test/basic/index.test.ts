@@ -1,3 +1,4 @@
+import '../../.ci-diagnostics/instrument.mjs';
 import { expect, test } from '@rstest/playwright';
 import { createRsbuild } from '@rsbuild/core';
 import { pluginExample } from '../../src';

@@ -37,5 +37,8 @@ jobs:
         with:
           run_install: true
 
-      - name: Run Test
-        run: node --run test
+      - name: Install diagnostic browser comparison
+        run: pnpm exec playwright install chromium
+
+      - name: Compare browser phases on the same runner
+        run: node .ci-diagnostics/run.mjs
