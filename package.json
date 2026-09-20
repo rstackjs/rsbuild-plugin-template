@@ -25,12 +25,12 @@
     "test": "rs test"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.2.6",
+    "@rsbuild/core": "^2.2.8",
     "@rstackjs/test-utils": "^1.0.0",
-    "@rstest/playwright": "^0.11.12",
-    "@types/node": "^24.13.4",
+    "@rstest/playwright": "^0.12.0",
+    "@types/node": "^24.13.6",
     "playwright": "^1.63.0",
-    "rstack": "^0.7.4",
+    "rstack": "^0.7.6",
     "typescript": "^7.0.2"
   },
   "peerDependencies": {
