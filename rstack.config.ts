@@ -20,3 +20,15 @@ define.lint(({ js, ts }) => [
   js.configs.recommended,
   ts.configs.recommendedTypeChecked,
 ]);
+
+define.test(async () => {
+  const { definePlaywrightConfig } = await import('@rstest/playwright/config');
+  return {
+    extends: definePlaywrightConfig({
+      launchOptions: {
+        // Skip installing Playwright browsers
+        channel: 'chrome',
+      },
+    }),
+  };
+});
