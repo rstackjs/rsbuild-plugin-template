@@ -25,12 +25,12 @@
     "test": "rs test"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.2.13",
+    "@rsbuild/core": "^2.3.2",
     "@rstackjs/test-utils": "^1.0.0",
-    "@rstest/playwright": "^0.12.3",
+    "@rstest/playwright": "^0.12.6",
     "@types/node": "^24.19.2",
-    "playwright": "^1.64.0",
-    "rstack": "^0.8.3",
+    "playwright": "^1.65.0",
+    "rstack": "^0.9.1",
     "typescript": "^7.0.2"
   },
   "peerDependencies": {
@@ -41,7 +41,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@12.11.2",
+  "packageManager": "pnpm@12.18.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
